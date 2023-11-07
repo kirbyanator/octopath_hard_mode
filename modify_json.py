@@ -31,7 +31,6 @@ def main():
         big_json = json.load(file)
 
     # do modification
-    # print(data)
 
     for monster in big_json['Exports'][0]['Table']['Data']:
         for item in monster['Value']:
